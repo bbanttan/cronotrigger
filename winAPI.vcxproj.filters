@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="playground.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="loadingScene.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="winAPI.cpp">
+      <Filter>Windows API</Filter>
+    </ClCompile>
+    <ClCompile Include="gameScene.cpp">
+      <Filter>Game\GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Windows API</Filter>
+    </ClCompile>
+    <ClCompile Include="animation.cpp">
+      <Filter>Framework\Image-Related</Filter>
+    </ClCompile>
+    <ClCompile Include="effect.cpp">
+      <Filter>Framework\Image-Related</Filter>
+    </ClCompile>
+    <ClCompile Include="effectManager.cpp">
+      <Filter>Framework\Image-Related</Filter>
+    </ClCompile>
+    <ClCompile Include="image.cpp">
+      <Filter>Framework\Image-Related</Filter>
+    </ClCompile>
+    <ClCompile Include="imageManager.cpp">
+      <Filter>Framework\Image-Related</Filter>
+    </ClCompile>
+    <ClCompile Include="keyAnimManager.cpp">
+      <Filter>Framework\Image-Related</Filter>
+    </ClCompile>
+    <ClCompile Include="keyManager.cpp">
+      <Filter>Framework\UserInput-Related</Filter>
+    </ClCompile>
+    <ClCompile Include="progressBar.cpp">
+      <Filter>Framework\Image-Related</Filter>
+    </ClCompile>
+    <ClCompile Include="soundManager.cpp">
+      <Filter>Framework\Sound-Related</Filter>
+    </ClCompile>
+    <ClCompile Include="gameNode.cpp">
+      <Filter>Framework\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneManager.cpp">
+      <Filter>Framework\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="timeManager.cpp">
+      <Filter>Framework\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="timer.cpp">
+      <Filter>Framework\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>Framework\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="startScene.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="fontParser.cpp">
+      <Filter>Framework\Text-Related</Filter>
+    </ClCompile>
+    <ClCompile Include="textManager.cpp">
+      <Filter>Framework\Text-Related</Filter>
+    </ClCompile>
+    <ClCompile Include="dataIOManager.cpp">
+      <Filter>Framework\Text-Related</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>Game\GameScene\Character\Players</Filter>
+    </ClCompile>
+    <ClCompile Include="videoPlayer.cpp">
+      <Filter>Framework\Video-Related</Filter>
+    </ClCompile>
+    <ClCompile Include="imageManager_textWindowSkin.cpp">
+      <Filter>Framework\Image-Related</Filter>
+    </ClCompile>
+    <ClCompile Include="EquipmentItem.cpp">
+      <Filter>Game\GameScene\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="etcItem.cpp">
+      <Filter>Game\GameScene\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="ExpendableItem.cpp">
+      <Filter>Game\GameScene\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="item.cpp">
+      <Filter>Game\GameScene\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="battleModeSelectScene.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="characterNamingScene.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="millennialFair.cpp">
+      <Filter>Game\GameScene\Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="teleport.cpp">
+      <Filter>Game\GameScene\Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="bossGatoStage.cpp">
+      <Filter>Game\GameScene\Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="mapManager.cpp">
+      <Filter>Game\GameScene\Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="leeneSquare.cpp">
+      <Filter>Game\GameScene\Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="chronoHome.cpp">
+      <Filter>Game\GameScene\Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="chronoHome2.cpp">
+      <Filter>Game\GameScene\Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="frog.cpp">
+      <Filter>Game\GameScene\Character\Players</Filter>
+    </ClCompile>
+    <ClCompile Include="lucca.cpp">
+      <Filter>Game\GameScene\Character\Players</Filter>
+    </ClCompile>
+    <ClCompile Include="crono.cpp">
+      <Filter>Game\GameScene\Character\Players</Filter>
+    </ClCompile>
+    <ClCompile Include="Astar.cpp">
+      <Filter>Framework\Astar</Filter>
+    </ClCompile>
+    <ClCompile Include="marle.cpp">
+      <Filter>Game\GameScene\Character\Players</Filter>
+    </ClCompile>
+    <ClCompile Include="character.cpp">
+      <Filter>Game\GameScene\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy.cpp">
+      <Filter>Game\GameScene\Character\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="gato.cpp">
+      <Filter>Game\GameScene\Character\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="battle.cpp">
+      <Filter>Game\GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="playerUiScene.cpp">
+      <Filter>Game\GameScene\Menu</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="playground.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="loadingScene.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Windows API</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Windows API</Filter>
+    </ClInclude>
+    <ClInclude Include="winAPI.h">
+      <Filter>Windows API</Filter>
+    </ClInclude>
+    <ClInclude Include="gameScene.h">
+      <Filter>Game\GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Windows API</Filter>
+    </ClInclude>
+    <ClInclude Include="animation.h">
+      <Filter>Framework\Image-Related</Filter>
+    </ClInclude>
+    <ClInclude Include="effect.h">
+      <Filter>Framework\Image-Related</Filter>
+    </ClInclude>
+    <ClInclude Include="effectManager.h">
+      <Filter>Framework\Image-Related</Filter>
+    </ClInclude>
+    <ClInclude Include="image.h">
+      <Filter>Framework\Image-Related</Filter>
+    </ClInclude>
+    <ClInclude Include="imageManager.h">
+      <Filter>Framework\Image-Related</Filter>
+    </ClInclude>
+    <ClInclude Include="keyAnimManager.h">
+      <Filter>Framework\Image-Related</Filter>
+    </ClInclude>
+    <ClInclude Include="keyManager.h">
+      <Filter>Framework\UserInput-Related</Filter>
+    </ClInclude>
+    <ClInclude Include="progressBar.h">
+      <Filter>Framework\Image-Related</Filter>
+    </ClInclude>
+    <ClInclude Include="soundManager.h">
+      <Filter>Framework\Sound-Related</Filter>
+    </ClInclude>
+    <ClInclude Include="gameNode.h">
+      <Filter>Framework\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="randomNumber.h">
+      <Filter>Framework\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="sceneManager.h">
+      <Filter>Framework\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="singleton.h">
+      <Filter>Framework\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="timeManager.h">
+      <Filter>Framework\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>Framework\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>Framework\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="startScene.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="fontParser.h">
+      <Filter>Framework\Text-Related</Filter>
+    </ClInclude>
+    <ClInclude Include="textManager.h">
+      <Filter>Framework\Text-Related</Filter>
+    </ClInclude>
+    <ClInclude Include="dataIOManager.h">
+      <Filter>Framework\Text-Related</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>Game\GameScene\Character\Players</Filter>
+    </ClInclude>
+    <ClInclude Include="videoPlayer.h">
+      <Filter>Framework\Video-Related</Filter>
+    </ClInclude>
+    <ClInclude Include="EquipmentItem.h">
+      <Filter>Game\GameScene\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="etcItem.h">
+      <Filter>Game\GameScene\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="ExpendableItem.h">
+      <Filter>Game\GameScene\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="item.h">
+      <Filter>Game\GameScene\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="battleModeSelectScene.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="characterNamingScene.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="mapManager.h">
+      <Filter>Game\GameScene\Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="millennialFair.h">
+      <Filter>Game\GameScene\Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="teleport.h">
+      <Filter>Game\GameScene\Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="bossGatoStage.h">
+      <Filter>Game\GameScene\Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="leeneSquare.h">
+      <Filter>Game\GameScene\Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="chronoHome.h">
+      <Filter>Game\GameScene\Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="chronoHome2.h">
+      <Filter>Game\GameScene\Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="lucca.h">
+      <Filter>Game\GameScene\Character\Players</Filter>
+    </ClInclude>
+    <ClInclude Include="crono.h">
+      <Filter>Game\GameScene\Character\Players</Filter>
+    </ClInclude>
+    <ClInclude Include="frog.h">
+      <Filter>Game\GameScene\Character\Players</Filter>
+    </ClInclude>
+    <ClInclude Include="character.h">
+      <Filter>Game\GameScene\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Astar.h">
+      <Filter>Framework\Astar</Filter>
+    </ClInclude>
+    <ClInclude Include="marle.h">
+      <Filter>Game\GameScene\Character\Players</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy.h">
+      <Filter>Game\GameScene\Character\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="gato.h">
+      <Filter>Game\GameScene\Character\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="battle.h">
+      <Filter>Game\GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="playerUiScene.h">
+      <Filter>Game\GameScene\Menu</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>Windows API</Filter>
+    </Image>
+    <Image Include="winAPI.ico">
+      <Filter>Windows API</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{e103e39f-5594-44b2-895f-5e74691204f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{04d218e9-52eb-492a-a306-4c9d202df0e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameScene">
+      <UniqueIdentifier>{5f081608-2bfb-412f-a022-cb885c08ca23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameScene\Shop">
+      <UniqueIdentifier>{71f3327b-6ed1-44c4-8fbd-2fe279cc01f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameScene\Items">
+      <UniqueIdentifier>{a2a88be5-45da-4cf7-986c-9a1e2b8a09fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Image-Related">
+      <UniqueIdentifier>{8bf80767-4b46-4986-a08d-78f27a65ac62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Text-Related">
+      <UniqueIdentifier>{99e3a34b-3ddb-40bc-82cf-355a1523efb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\UserInput-Related">
+      <UniqueIdentifier>{ceb6a6e5-8f8d-4b69-a3d1-16914a1807cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Sound-Related">
+      <UniqueIdentifier>{9c558740-0039-440e-bd4e-34f6622b22c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Others">
+      <UniqueIdentifier>{edb7a47b-f903-4726-b939-c6a7da5f231d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameScene\Menu">
+      <UniqueIdentifier>{f32014dc-55e9-44c8-abad-1a0707992c8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Video-Related">
+      <UniqueIdentifier>{d303b31c-16eb-4da4-9ffe-6e8d0343c5b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameScene\Maps">
+      <UniqueIdentifier>{84e20732-addf-4c1e-9ed4-1592accc4b8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameScene\Maps\Events">
+      <UniqueIdentifier>{680ed4f1-8dba-4e61-96b0-a5f6074d753a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Windows API">
+      <UniqueIdentifier>{4113a4ab-ebe1-462c-a73f-748100d07ae0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameScene\Character">
+      <UniqueIdentifier>{cd77e119-b523-4351-b2cf-fc7b0c93bbd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameScene\Character\Enemies">
+      <UniqueIdentifier>{e53056a4-6a9b-42ef-99a0-a5577bd9a77b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameScene\Character\Players">
+      <UniqueIdentifier>{a57fb616-eb2a-4471-8ae9-ead75746267e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Astar">
+      <UniqueIdentifier>{435b423a-9dd4-4bf8-a018-861952dceccb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="winAPI.rc">
+      <Filter>Windows API</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
